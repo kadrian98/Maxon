@@ -1,0 +1,127 @@
+.sec-heading
+{
+          text-align: center;
+          margin-top: 100px;
+}
+
+.tagline
+{
+          color: #ff7214;
+          display: block;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 1.4px;
+          text-transform: uppercase;
+          margin-bottom: 10px;
+          position: relative;
+}
+
+.sec-title
+{
+          font-size: 42px;
+          margin: 0;
+          color: #112e41;
+          font-family: Poppins,sans-serif;
+          font-weight: 700;
+          margin-bottom: 60px;
+}
+
+
+.row
+{
+          display: flex;
+          justify-content: center;
+}
+
+.iconBox
+{
+   border: 5px solid #f6f7fb;
+    border-radius: 5px;
+    padding: 40px 25px;
+    text-align: center;
+    transition: all .3s ease-in-out;  
+    margin: 15px;  
+    /* display: block; */
+    
+    /* max-width: 255px; */
+
+}
+
+
+
+.iconBox:hover
+{
+          box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.81);
+          -webkit-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.81);
+          -moz-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.81);
+          border: 5px solid #fff;
+}
+.iconBox .logo
+{
+          margin-bottom: 20px;
+}
+.icon-edit
+{
+          
+          background-color: rgb(255, 238, 226);
+          padding: 14px;
+	border-radius: 50%;
+          font-size: 27px;
+          line-height: 70px;
+          
+        
+}
+
+
+.icon-eject-alt-outline
+{
+          
+          background-color: rgb(235, 227, 255);
+          padding: 14px;
+	border-radius: 50%;
+          font-size: 27px;
+          line-height: 70px;
+          
+          
+}
+
+.icon-lock
+{
+          background-color: rgb(213, 248, 255);
+          padding: 14px;
+	border-radius: 50%;
+          font-size: 27px;
+          line-height: 70px;
+}
+
+.icon-headphones
+{
+          background-color: rgb(255, 237, 245);
+          padding: 14px;
+	border-radius: 50%;
+          font-size: 27px;
+          line-height: 70px;
+}
+.iconBox a
+{
+          font-family: Poppins,sans-serif;
+          font-weight: 700;
+          text-decoration: none;
+          color: #000;
+          font-size: 22px;
+          
+}
+
+.iconBox p
+{
+          color: #111;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 1.8;
+          text-align: center;
+          margin-top: 20px;
+          padding: 10px;
+          
+                    
+}

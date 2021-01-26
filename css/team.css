@@ -1,0 +1,80 @@
+.team-member
+{
+          text-align: center;
+          margin-top: 100px;
+}
+
+.members
+{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          margin-bottom: 100px;
+}
+
+.single-memb
+{
+        border: 5px solid #f6f7fb; 
+        padding: 15px; 
+        margin: 15px;
+        text-align: center;
+}
+.memb-details
+{
+          
+          margin-top: 20px;
+}
+.single-memb h5
+{
+         color: #233646;
+         font-size: 22px;
+         font-weight: 700;
+         font-family: Poppins,sans-serif;
+         margin-bottom: 15px;
+}
+
+.memb-details span
+{
+          color: #888;
+          display: block;
+          font-size: 14px;
+          text-transform: capitalize;
+           margin-bottom: 20px;
+}
+
+.memb-social a
+{
+          text-decoration: none;
+          color: #999;
+          display: inline-block;
+          font-size: 14px;
+          line-height: .8;
+          text-transform: capitalize;
+          position: relative;
+          /* padding: 0 10px; */
+          transition: all 0.2s ease-in-out;
+}
+
+.memb-social a:hover
+{
+          color: #ff7214;
+}
+.memb-social i
+{
+          color: #999;
+}
+
+@media (max-width:1180px)
+{
+          .members
+          {
+                    width: 25%;
+          }
+}
+@media (max-width:770px)
+{
+          .members
+          {
+                    width: 100%;
+          }
+}

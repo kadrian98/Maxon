@@ -1,0 +1,163 @@
+
+.features-list {
+       display:flex;
+       align-items: flex-start;
+       justify-content: center;
+       flex-wrap:wrap;
+}
+
+.feature {
+       width:20%;
+}
+
+@media (max-width: 1424px)
+{
+       .features-list a
+       {
+       font-size: 17px;
+       }
+}
+
+@media (max-width: 1200px) {
+       .feature {
+              width: 50%;
+       }
+}
+
+@media (max-width: 768px) {
+       .feature {
+              width: 100%
+       }
+}
+
+
+
+.left-subt
+{
+       padding-right: 40px;
+       
+}
+
+.left-subt h2
+{
+       font-weight: 700;
+       margin-bottom: 30px;
+}
+
+
+.left-subt p
+{
+       text-align: justify;
+}
+
+.left-subt a
+{
+       text-decoration: none;
+       color: #000;
+       transition: all 0.2s ease-in-out;
+       text-transform: uppercase;
+       font-size: 14px;
+       font-weight: 700;
+}
+
+
+.left-subt a:hover
+{
+       color: #ff7214;
+}
+
+.half-pic
+{
+
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+       margin: 10px;
+}
+
+.right-subt-fish
+{
+       padding-left: 40px;
+       
+}
+
+.right-subt-fish h2
+{
+       font-weight: 700;
+       margin-bottom: 30px;
+}
+
+
+.right-subt-fish p
+{
+       text-align: justify;
+}
+
+.right-subt-fish a
+{
+       text-decoration: none;
+       color: #000;
+       transition: all 0.2s ease-in-out;
+       text-transform: uppercase;
+       font-size: 14px;
+       font-weight: 700;
+}
+
+.right-subt-fish a:hover
+{
+       color: #ff7214;
+}
+
+.second-half-pic
+{
+       padding-top: 80px;
+       display: flex;
+       align-items: center;
+       margin: 10px;
+       margin-bottom: 90px;
+}
+
+
+.left-last-subt
+{
+       padding-right: 40px;
+       
+}
+
+.left-last-subt h2
+{
+       font-weight: 700;
+       margin-bottom: 30px;
+}
+
+
+.left-last-subt p
+{
+       text-align: justify;
+}
+
+.left-last-subt a
+{
+       text-decoration: none;
+       color: #000;
+       transition: all 0.2s ease-in-out;
+       text-transform: uppercase;
+       font-size: 14px;
+       font-weight: 700;
+}
+
+
+.left-last-subt a:hover
+{
+       color: #ff7214;
+}
+
+.running-men
+{
+
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+       margin: 10px;
+       margin-bottom: 45px;
+}

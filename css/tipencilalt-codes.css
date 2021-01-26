@@ -2,4 +2,9 @@
 .icon-lock:before { content: '\e800'; } /* '' */
 .icon-headphones:before { content: '\e801'; } /* '' */
 .icon-eject-alt-outline:before { content: '\e802'; } /* '' */
+.icon-play-circled:before { content: '\e803'; } /* '' */
 .icon-edit:before { content: '\e804'; } /* '' */
+.icon-dot:before { content: '\e805'; } /* '' */
+.icon-heart-empty:before { content: '\e806'; } /* '' */
+.icon-comment:before { content: '\e807'; } /* '' */
+.icon-right:before { content: '\f178'; } /* '' */

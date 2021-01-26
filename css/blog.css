@@ -1,0 +1,85 @@
+.blog-header
+{
+          text-align: center;
+          margin-bottom: 80px;
+}
+
+.blog-header h3
+{
+          margin: 0;
+}
+
+.blog-header p
+{
+          color: #888;
+          font-size: 14px;
+}
+
+.posts
+{
+          display: flex;
+          justify-content: center;
+}
+
+.post-item
+{
+           border: 5px solid #f6f7fb;  
+           margin: 15px; 
+}
+
+.info-about-post
+{
+          padding: 35px 25px;
+}
+
+.meta-tag
+{
+          margin-bottom: 15px;
+}
+.meta-tag a
+{
+          color: #888;
+          display: inline-block;
+          font-size: 12px;
+          line-height: .8;
+          text-transform: uppercase;  
+          text-decoration: none;
+}
+
+h5 a
+{
+        color: #233646;
+        font-family: Poppins,sans-serif;
+        font-weight: 700;  
+        text-decoration: none;
+}
+
+.interaction
+{
+          margin-top: 20px ;
+}
+
+.interaction a
+{
+          text-decoration: none;
+          color: #888;
+    display: inline-block;
+    font-size: 12px;
+    line-height: .8;
+    text-transform: uppercase;
+    padding: 0 15px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.interaction i
+{
+          color: #ff7214;
+          font-size: 18px;
+}
+
+.interaction a:hover
+{
+          color: #ff7214;
+
+}

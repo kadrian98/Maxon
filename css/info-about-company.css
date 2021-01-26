@@ -1,38 +1,37 @@
 .asade
 {
           background-color: #fff;
-          /* width: 100%; */
-          margin-left: auto;
-          margin-right: auto;
-          margin: 0;
-          display: flex;
+          margin: 10px;
+          display: flex; 
+          margin-top: 30px; 
+          width: 100%;
 }
 
 .left-bar
 {
-       display: flex;  
-       /* width: 50%;
-       position: relative;
-       left: 0;  */
+       display: flex;
+       align-items: flex-end;
+       
 }
 
 .left-jpg
 {
-          padding-left: 15px;
-          padding-top: 130px;
-          padding-right: 30px;
+         padding-right: 30px;
+         
 }
 
-.right-jpg
+
+.mid-jpg
 {
-          padding-top: 60px;
+          align-self: flex-start;
+         
 }
 
-.right-jpg h3
+.mid-jpg h3
 {
           font-size: 40px;
           line-height: 50px;
-          margin-bottom: 0;
+          padding-top: 40px;
           color: #112e41;
           font-family: Poppins,sans-serif;
           font-weight: 700;
@@ -40,8 +39,9 @@
 
 .right-bar
 {         
-          padding-left: 40px;
-          padding-top: 160px;
+       display: inline-block;
+       align-items: flex-end;
+       padding: 60px;
 }
 
 .right-bar span 
@@ -52,7 +52,6 @@
           font-weight: 500;
           letter-spacing: 1.4px;
           text-transform: uppercase;
-          margin-bottom: 10px;
           position: relative;
           font-family: 'Roboto', sans-serif;
           margin-bottom: 15px;
@@ -64,8 +63,8 @@
           font-family: Poppins,sans-serif;
           font-weight: 700;  
           font-size: 42px;
-          line-height: 50px;
-          margin: 0;
+          /* line-height: 50px; */
+          margin-bottom: 20px;
 }
 
 .right-bar h5

@@ -1,0 +1,96 @@
+.contact-form {
+	width:100%;
+	display: flex;
+          justify-content: center;      
+	margin: 40px 0;
+
+}
+
+
+.form {
+
+	/* text-align:left;
+	flex:1;
+	margin-right:0; */
+		
+}
+
+.form-row {
+	display: flex;
+	margin:30px 0;
+}
+
+.form-row-email input 
+{
+	border: 1px solid #e5e6ea;
+          border-radius: 0;
+          padding: 20px 25px;
+          font-size: 14px;
+          color: #999;
+          margin-bottom: 30px;
+          height: 60px;
+          width: 730px;
+}
+
+.form-row input:first-child {
+	margin-right: 30px;
+}
+
+.form-row input {
+	border: 1px solid #e5e6ea;
+          border-radius: 0;
+          padding: 20px 25px;
+          font-size: 14px;
+          color: #999;
+          margin-bottom: 30px;
+          height: 60px;
+          width: 350px;
+}
+
+.form button
+{
+          padding: 20px 40px;
+          margin: 0;
+}
+
+.all-form
+{
+          display: flex;
+          align-items: center;
+}
+.address
+{
+          margin-right: 60px;
+         
+}
+
+.form textarea {
+	width:630px;
+	background:transparent;
+          border: 1px solid #e5e6ea;
+           border-radius: 0;
+          padding: 20px 25px;
+          font-size: 14px;
+          color: #999;
+          margin-bottom: 30px;
+          width: 730px;
+          height: 184px;
+
+} 
+.contact-info
+{
+          display: flex;
+          flex-direction: column;
+}
+.contact-info span
+{
+           color: #888;
+          font-size: 15px;
+          line-height: .8;
+          margin-bottom: 30px;
+}
+
+.contact-info span img
+{
+          margin-right: 10px;
+}

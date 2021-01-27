@@ -7,4 +7,7 @@
 .icon-dot:before { content: '\e805'; } /* '' */
 .icon-heart-empty:before { content: '\e806'; } /* '' */
 .icon-comment:before { content: '\e807'; } /* '' */
+.icon-mobile:before { content: '\e808'; } /* '' */
+.icon-mail:before { content: '\e809'; } /* '' */
 .icon-right:before { content: '\f178'; } /* '' */
+.icon-map-pin:before { content: '\f276'; } /* '' */
